@@ -1,0 +1,102 @@
+#LoginMain{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    }
+    #loginBody{
+        background-image: linear-gradient(to left,var(--Background-light), var(--Background-dark));
+    }
+    #centerContent {
+        padding: 3rem;
+        /* margin: 2rem !important; */
+        margin-top: 2rem !important;
+        border: solid 0.05rem;
+        border-radius: 1rem;
+        box-shadow: 20px black;
+    }
+    #LoginMain div{
+        margin: 1rem 1rem 2rem 0rem;
+        background-color: var(--Background-blueWhite);
+    }
+    
+    
+    #loginTitle{
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    #loginButton{
+        padding:0.5rem 7rem;
+        margin:1rem;
+        margin-left: 1rem;
+        background-color: #b9772f;
+        color: whitesmoke;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        justify-content: center;
+        border: none;
+        cursor: pointer;
+        
+    }
+    #loginButton:hover{
+        background-color: #da8b37;
+    }
+    .acc-btn{
+        padding:0.5rem 3rem;
+        background-color: #b9772f;
+        color: whitesmoke;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        justify-content: center;
+        border: none;
+        cursor: pointer;
+        margin: 5px;
+    }
+    .acc-btn:hover{
+        background-color: #da8b37;
+    }
+    .loginInput{
+        border-color: transparent;
+        outline: none;
+        margin: 0.5rem;
+        background-color: var(--Background-blueWhite);
+    }
+    .iconInput{
+        border-bottom: solid;
+        /* margin: 0rem; */
+    }
+    /*#loginButton{
+        border: none;
+        background-color: var(--Background-dark);
+        color: var(--Background-blueWhite);
+    }*/
+    .flexed{
+        display: flex;
+    }
+    #forgotpwlink{
+        margin-left: 4rem;
+        font-style: italic;
+        font-family:'Times New Roman', Times, serif;
+        text-decoration: none;
+        color: black;
+    }
+    #forgotpwlink:hover{
+        text-decoration: underline;
+        color: #69140E;
+    }
+    #loginLogo{
+        max-width: fit-content;
+        font-size: 2rem;
+        font-weight: 600;
+        color: var(--Background-blueWhite);
+        /* border: solid #69140E; */
+        margin: 1rem;
+    }
+    
+    
