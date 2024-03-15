@@ -21,7 +21,6 @@ Welcome to BackLit Book E-commerce Store! This project is a full-fledged e-comme
 
 ## Installation
 
-```bash
 1. Download and install XAMPP from [https://www.apachefriends.org/index.html](https://www.apachefriends.org/index.html).
 
 2. Clone the repository into the `htdocs` directory of your XAMPP installation. You can find the `htdocs` directory inside the XAMPP installation folder (usually located at `C:\xampp\htdocs` on Windows).
@@ -31,9 +30,10 @@ Welcome to BackLit Book E-commerce Store! This project is a full-fledged e-comme
 4. Start the Apache and MySQL services in XAMPP.
 
 5. Open your web browser and navigate to `http://localhost/backlitbooks` to access the BackLit Book E-commerce Store.
+  
 
-
-```  
-
+   
+## Demo
+![Demo GIF](./demo/backlit-books.gif)
 
 Experience the convenience of shopping for e-books with BackLit Book E-commerce Store! 📚 Browse, purchase, and manage your e-books seamlessly.Happy reading! 🛒📖
